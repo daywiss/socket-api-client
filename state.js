@@ -1,5 +1,6 @@
 const set = require('lodash/set')
 const unset = require('lodash/set')
+
 module.exports = (state) => (channel) => {
   return ([path=[],data])=>{
     if(path.length){

@@ -1,4 +1,4 @@
-const assert = require('assert')
+const assert = require('./assert')
 module.exports = async (io,host,emit=x=>x) => {
   assert(host,'requires socket host address')
   const socket = io(host)
